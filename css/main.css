@@ -1,0 +1,44 @@
+@import "./reset.css";
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.nunito {
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.montserrat {
+    font-family: "Montserrat", serif;
+}
+
+.container {
+    
+}
+
+/*header*/
+
+.header {
+}
+
+/*nav*/
+
+.nav {
+}
+
+.nav__row {
+}
+.nav__list {
+}
+.nav__logo {
+}
+.nav__btn {
+}
