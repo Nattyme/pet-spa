@@ -58,6 +58,13 @@ body {
     text-transform: uppercase;
     text-align: center;
     color: var(--333333);
+
+    transition: all 0.2s ease-in;
+}
+
+.btn:hover {
+    background-color: var(--333333);
+    color: #fff;
 }
 
 /*header*/
@@ -75,6 +82,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 30px;
+    align-items: center;
 }
 
 .nav__list {
@@ -84,6 +92,7 @@ body {
     text-align: center;
 }
 .nav__btn {
+    text-align: right;
 }
 
 /*nav list*/
