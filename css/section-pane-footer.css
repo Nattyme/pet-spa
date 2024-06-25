@@ -1,7 +1,28 @@
 .pane-footer {
+    position: relative;
     display: flex;
     align-items: center;
     column-gap: 50px;
+}
+
+.pane-footer::before {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    content: url("./../img/content/pane-footer/vector-01.svg");
+    width: 41px;
+    height: 68px;
+}
+
+.pane-footer::after {
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    right: 0;
+    content: url("./../img/content/pane-footer/vector-02.svg");
+    width: 41px;
+    height: 68px;
 }
 
 .pane-footer__img {
