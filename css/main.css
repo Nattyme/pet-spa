@@ -14,24 +14,35 @@
 @import "./nav.css";
 @import "./header.css";
 @import "./section.css";
+@import "./slider.css";
 
 
-.services-pics {
-    padding-top: 160px;
-    padding-bottom: 125px;
+.paw-title {
+    font-family: var(--font-family);
+    font-weight: 400;
+
 }
 
-.services-pics__grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    gap: 20px;
+.paw-list {
+
 }
 
-.service-block {
+.paw-list li {
+    position: relative;
 }
 
-.service-block__img {
-}
-.service-block__title {
+.paw-list li::before {
+    content: "";
+    
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    width: 22px;
+    height: 22px;
+
+    transform: translate(-100%, 0%);
+    
+    background-image: url('./../img/svg/paw-bullet.svg');
+    background-repeat: no-repeat;
+    
 }
