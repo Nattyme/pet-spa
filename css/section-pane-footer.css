@@ -1,0 +1,17 @@
+.pane-footer {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.pane-footer__img {
+    overflow: hidden;
+    border-radius: 120.5px;
+    flex: 1;
+    flex-grow: 0.8;
+}
+
+.pane-footer__img--huge {
+    border-radius: 135px;
+    flex: 1;
+}
