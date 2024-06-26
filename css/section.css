@@ -1,6 +1,10 @@
 .section {
 }
 
+.section-pane {
+    padding-bottom: 140px;
+}
+
 .section__grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
