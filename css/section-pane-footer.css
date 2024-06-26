@@ -1,9 +1,11 @@
+.section-pane-footer {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .pane-footer {
     margin-left: auto;
     margin-right: auto;
-
-    padding-top: 120px;
-    padding-bottom: 120px;
 
     max-width: 1530px;
     position: relative;
